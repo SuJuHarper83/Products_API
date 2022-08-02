@@ -19,9 +19,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-q2_le(3&b(c83j*_8v^f4ofuhe287)uaqpeq3ps5u(0ftb_n(i'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -75,8 +72,11 @@ WSGI_APPLICATION = 'product_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'product_database',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': 'password'
     }
 }
 
