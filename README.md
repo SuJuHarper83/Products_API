@@ -9,4 +9,6 @@ As a developer, I want to build a REST web API in Django REST Framework, so that
 
 BONUS
 
-(/5 points) As a developer, I want to add the ability to add an image link to each product. (Link to picture on the internet, this will just be a simple CharField representing the URL of the image, you do NOT need to add an actual image file.) --> -->
+As a developer, I want to add the ability to add an image link to each product. 
+(Link to picture on the internet, this will just be a simple CharField representing the URL of the image, 
+you do NOT need to add an actual image file.) --> -->
